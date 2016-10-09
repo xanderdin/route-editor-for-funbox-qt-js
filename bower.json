@@ -1,0 +1,17 @@
+{
+  "name": "route-editor-for-funbox-qt-js",
+  "description": "Route Editor for FUNBOX's JavaScript qualification trial",
+  "version": "0.1.0",
+  "homepage": "https://github.com/xanderdin/route-editor-for-funbox-qt-js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-route": "~1.5.0",
+    "angular-loader": "~1.5.0",
+    "angular-mocks": "~1.5.0",
+    "html5-boilerplate": "^5.3.0",
+    "ya-map": "angular-yandex-map#^1.0.9",
+    "angular-drag-and-drop-lists": "^1.4.0"
+  }
+}

@@ -1,0 +1,41 @@
+/* app css stylesheet */
+
+html, body, .full-height {
+  height: 100%;
+}
+
+.map-container {
+  padding-bottom: 32px;
+  height: 100%;
+}
+
+ya-map {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+ul[dnd-list], ul[dnd-list] > li {
+  position: relative;
+}
+
+/**
+ * The dndDraggingSource class will be applied to
+ * the source element of a drag operation. It makes
+ * sense to hide it to give the user the feeling
+ * that he's actually moving it.
+ */
+ul[dnd-list] .dndDraggingSource {
+  display: none;
+}
+
+/**
+ * An element with .dndPlaceholder class will be
+ * added to the dnd-list while the user is dragging
+ * over it.
+ */
+ul[dnd-list] .dndPlaceholder {
+  display: block;
+  background-color: #ddd;
+  min-height: 42px;
+}
