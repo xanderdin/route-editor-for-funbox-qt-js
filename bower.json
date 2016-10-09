@@ -13,5 +13,8 @@
     "html5-boilerplate": "^5.3.0",
     "ya-map": "angular-yandex-map#^1.0.9",
     "angular-drag-and-drop-lists": "^1.4.0"
+  },
+  "resolutions": {
+    "angular": "1.5.8"
   }
 }
